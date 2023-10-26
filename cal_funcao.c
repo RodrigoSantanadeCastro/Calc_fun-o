@@ -4,10 +4,10 @@
 #include "biblioteca.h"
 
 
-int main(int argc, char *argv[])) {
+int main(int argc, char *argv[]){
 
 
-int:op
+ int op;
  float num1, num2;
  setlocale(LC_ALL, "Portuguese");
  do{
@@ -21,24 +21,31 @@ int:op
 
  
  printf("Digite o primeiro numero");
- scanf("%f",num1);
+ scanf("%f",&num1);
  printf("digite o segundo numero");
- scanf("%f",num2);
+ scanf("%f",&num2);
 
-switch(op){
+switch(op) {
 
  case 1: soma (num1,num2);
+	 break;
 
  case 2: subtracao(num1,num2);
+	 break;
 
  case 3 : multiplicacao(num1,num2);
+	  break;
+
 
  case 4: divisao(num1,num2);
 
+	break;
+
+}
 
 }
 while (op!=0);
-}
+
 return 0;}
 
 

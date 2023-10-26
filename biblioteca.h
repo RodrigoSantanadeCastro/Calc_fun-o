@@ -3,7 +3,7 @@ void soma(float a,float b){
   total = a+b;
   printf("Resultado:%f",total);
 }
-void subritacao(float a, float b){
+void subtracao(float a, float b){
   float total;
   total = a-b;
   printf("Resultado:%f",total);
@@ -23,4 +23,7 @@ void divisao(float a, float b){
   }
 
 	
+}
+void menu(){
+
 }
